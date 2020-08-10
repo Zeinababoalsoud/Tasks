@@ -1,0 +1,217 @@
+<!Doctype html>
+<html>
+<head>
+    <title>My Second Task</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<style>
+	   blockquote
+	   {
+	   background:#ccc;
+	   padding:10px;
+	   border:1px solid#ccc;
+	   width:1350px;
+	   height:100px;
+	   }
+	   body 
+	   {
+	   background:#fff;
+	   }
+	   thead td
+       {
+	   background:#ffea00;
+	   Font-weight:bold;
+	   color:#00f;
+	   padding:10px;
+	   border:1px solid#fff;
+       }
+	   tfoot td 
+	   {
+	   background:#005eff;
+	   Font-weight:bold;
+	   color:#ccc;
+       padding:10px; 
+	   border:1px solid#fff;
+	   }
+       tbody td
+       { 
+	   background:#ff00cd;
+       Font-weight:bold;
+       color:#673dff;
+       padding:10px;
+	   border:1px solid#fff;
+       }
+	   label 
+	   {
+	   display:block;
+	   }
+	   iframe
+	   {
+	   background:#ff00cd;
+	   width:1000px;
+	   height:800px;
+	   padding:10px;
+	   border:1px solid#ffea00;
+	   }
+	   .C{color:red;font-size:100px;text-align:center}
+	   .O{color:blue;font-size:30px;text-align:center}
+	   .M{color:green;font-size:90px;text-align:center}
+	   .P{color:#9c27b0;font-size:40px;text-align:center}
+	   .i{color:#eaaccl;font-size:100px;text-align:center}
+	   .L{color:#005eff;font-size:45px;text-align:center}
+	   .e{color:ffc107;font-size:90px;text-align:center}
+	   .r{color:009688;font-size:50px;text-align:center}
+	   .div
+		{
+        text-align:center;
+		background:#fb9902;
+		color:#FFFFFF;
+		padding:10px;
+		}		
+	</style>
+</head>
+
+<body>
+<!--تنسيق النص والاقتباس -->
+   <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
+     <p align="center" style="font-size:30px"><b>a Special quotes make your life</b></p>
+   
+     <blockquote>There are<mark>only two ways</mark>to live your life<ins>One is as Though nothing is a miracle</ins>.<del>The other is as Though every 
+     Thing is a miracle</del>.<p><q>Albert Einshtin </q></p></blockquote><br>
+   
+     <blockquote>The important Thing is not to stop questioning .Curiosity has its own reason for existence . One Cannot help but be in awe when he
+     contempates the  mysteries of eternity ,of life ,of the marvelous strcture of reality .It is enough if one tries merely to compenhend a little of this mystery each day.
+     <mark><q>Old Man s advice to Youth:Never Lose a Holy Curiosity </q>Life magazine(2<sup>nd</sup>of May1955) P<sub>-64</sub></mark><br><q>Albert Einshtin</q></blockquote>
+   </div ><br>
+   
+   
+<!--الجداول وبعض التنسيقات-->
+<div style="background:#ddd;padding:10px;border:1px solid#ffea00">
+      <table border="1" align="center" width="1000px">  
+       <caption style=" color:#ff00cd""font:bold">This is a Table</caption>
+        <thead>  
+		  <tr> 
+            <td>old team</td>
+            <td>Abubakr</td>
+	        <td>fareed</td>
+	        <td>yasser</td>
+	        <td>Rana </td>
+	        <td>Aya</td>
+          </tr>
+		</thead>
+		<tbody>
+          <tr> 
+            <td>Specification</td>
+            <td>front-end Developer</td>
+	        <td>front-end Developer</td>
+	        <td>back-end Developer</td>
+	        <td>back-end Developer</td>
+	        <td>front-end Developer</td>
+          </tr>
+		 </tbody>
+		<tfoot>
+          <tr> 
+            <td>Working with</td>
+            <td>js</td>
+	        <td>php</td>
+	        <td>python</td>
+	        <td>html5,css3,jquery</td>
+	        <td>html5,css3,jquery</td>
+          </tr>
+		</tfoot>
+      </table>
+
+<!--دمج صفوف فى الجداول -->
+     <table  border="1" align="center" width="1000px">
+      <caption style=" color:#964b00""font:bold">Wed-Team Sections</caption>
+ 
+      <tr> 
+     
+	    <td colspan="2"style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">Programing</td>
+	    <td colspan="3">wed-Design</td>
+      </tr>
+  
+      <tr> 
+        <td>PHP</td>
+        <td>MySqL</td>
+	    <td style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">html</td>
+	    <td style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">Css</td>
+	    <td style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">js</td>
+      </tr>
+  
+     </table>
+ </div><br>
+ 
+ <!--forms/Classes-->
+ <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
+    <div style=text-align:center;margin:5px">
+	    <span class="C">C</span>
+	    <span class="O">O</span>
+		<span class="M">M</span>
+		<span class="P">P</span>
+		<span class="i">i</span>
+		<span class="L">L</span>
+		<span class="e">e</span>
+		<span class="r">r</span>
+     </div>
+      <form name="Register" action="" method="post">
+        <fieldset style="background:#fff";padding:10px;border:1px solid#ffea00 >
+		    <legend style="Font-weight:bold;color:#ffea00; border:1px solid#964b00">Personal info</legend>
+		    <label>User Name</label>
+		    <input type="text" name="" value="" placeholder="Type Your Name" maxlength="10">
+		    <br>
+		    <label>Password</label>
+		    <input type="Password" placeholder="Type Your Password">
+			<label>Remmeber Me</label>
+		    <input type="checkbox">
+		</fieldset><br><br>
+		<fieldset style="background:#fff";padding:10px;border:1px solid#ffea00>
+		    <label style="Font-weight:bold;color:#ffea00">gender</label><br>
+
+                <input type="radio" name="gender" value="Male">Male<br>
+                <input type="radio" name="gender" value="Female">Female<br>
+             <hr>
+			<label style="Font-weight:bold;color:#ffea00">browzer</label><br>
+
+                <input type="radio" name="brozer1" value="Firfox">Firfox<br>
+                <input type="radio" name="brozer2" value="Chrome">Chrome<br>
+                <input type="radio" name="brozer3" value="safari">safari<br>
+             <hr>
+			    <label style="Font-weight:bold;color:#ffea00">Profile image</label>
+				<input type="file" >
+		     <hr>
+		    <label style="Font-weight:bold;color:#ffea00">Leave a Massage For us</label><br>
+                <textarea rows="20" cols="40"></textarea><br>
+		     <hr>
+<!--Select Box-->
+        <fieldset style="background:#fff";padding:10px;border:1px solid#ffea00 >
+            <legend style="Font-weight:bold;color:#ffea00;border:1px solid#964b00">Deal With info</legend>
+		    <select name="Time" size="1">
+                <option disabled>Now</option>
+		        <option>Tomorrow</option>
+		        <option>After A Week</option>
+            </select>
+			<input type="submit" value="Sent info">
+			<input type="reset">
+		
+       </fieldset><br>
+ 
+  </div ><br>
+</form>
+<!--iframe-->
+        <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
+            <iframe name="ٍSohag univ"src="https://www.sohag-univ.edu.eg/"></iframe>
+        </div><br>
+   <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
+   
+       &lt;div class="Num_div"&gt;<br>
+       &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;Type Here<br>
+       &lt;/div&gt;
+   
+   </div><br>
+   <div class=div>
+      Copyright &copy for Zeinab Abo alsoud
+  
+   </div>
+</body>
+</html>
