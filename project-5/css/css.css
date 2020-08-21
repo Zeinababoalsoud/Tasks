@@ -1,0 +1,205 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+
+* 
+{
+    transition: .75s ease-in-out all;
+}
+
+.div1
+{
+    background:#303433;
+    padding:5px;
+    height:75px;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:3;
+}
+
+.div1 ul 
+{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+li 
+{
+    display: inline-block;
+    margin:15px 5px 5px;
+    padding:10px;
+    font-size:30px;
+}
+
+.facebook, .twitter, .instagram, .messenger
+{
+    float: right;
+    color:aliceblue;
+}
+
+.Home 
+{
+    background: #47d92b;
+}
+
+a {
+    text-decoration: none;
+    color:#e8e4e4
+}
+
+.div2 
+{
+    position: fixed;
+    z-index: 2;
+}
+
+.about, .blog, .project,.contact {
+    display: block;
+    color: #000;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: -90px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.about:hover, .blog:hover, .project:hover, .contact:hover 
+{
+        margin-left: 0px;
+}
+
+.about 
+{
+        background: #47d92b;
+}
+
+.blog
+{
+    background:#ff0000;
+}
+
+.project
+{
+    background:#0012e0;
+}
+
+.contact
+{
+    background:#303433;
+}
+
+.div3
+{
+    margin:0 40px;
+    color:#000;
+    margin-top:100px;
+    z-index:1;
+}
+
+dt 
+{
+    background: #000;
+    color: #fff;
+    height: 30px;
+    padding: 10px 10px 0px;
+    position:sticky;
+    top:90px;
+}
+
+.div4 {
+    background-image: url(../images/5.jpg);
+    padding: 70px;
+    margin: 50px 0 50px 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.div5
+{
+    background:#f1f1f1;
+    max-height:50px;
+    padding:20px 20px;
+    overflow:hidden;
+    margin-bottom:60px;
+}
+
+.div5:hover
+{
+    max-height: 150px;
+}
+
+.div4:hover:after {
+    content: "this div is hovered";
+    background: rgba(255, 0, 0, 0.60);
+    padding: 50px 1000px 50px 50px;
+}
+
+.div6 
+{
+    background-image: url(../images/6.jpg);
+    padding: 40px;
+    margin: 60px 0 60px 0;
+    background-attachment: fixed;
+}
+
+.div7
+{
+    background:rgba(255, 0, 0, 0.54);
+    padding: 30px;
+    margin: 10px
+}
+
+.div8
+{
+    background:rgba(139, 24, 200, 0.71);
+    color:#000;
+    padding:10px;
+}
+
+p
+{
+    background: rgba(71, 217, 43, 0.71);
+    color: #000;
+    padding: 10px;
+}
+
+.div7 p:hover ~p
+{
+    background:rgba(137, 143, 142, 0.89);
+}
+
+.div9 {
+    background-image: url(../images/7.jpg);
+    padding: 20px;
+    margin: 40px 40px 40px 70px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.div10
+{
+    background:rgba(69, 81, 226, 0.67);
+    margin:100px;
+    padding:10px;
+    font-size:20px;
+}
+
+.div10:first-letter 
+{
+    background: #ff29c0;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.div10:first-line
+{
+    background: rgba(48, 52, 51, 0.69);
+}
