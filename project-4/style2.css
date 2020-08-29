@@ -4,6 +4,8 @@
     background:#fb9902;
     padding:5px;
     height:50px;
+	position:fixed;
+	width:1500px;
 }
 .div1 a 
 { 

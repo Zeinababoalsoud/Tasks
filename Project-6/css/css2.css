@@ -1,0 +1,188 @@
+/************************ sytle of part1 ************************/
+body
+{   
+   direction:ltr;
+   margin:0;
+   padding:0;
+}
+.div1
+{
+   color:#a26bae;
+   background-image:url(../images/IMG-20200803-WA0185.jpg);
+   padding:10px;
+   height:750px;
+   background-repeat:no-repeat;
+   background-size:100%;
+}
+.div2
+{
+   background-color:rgba(255,0,0,0.2);
+   
+}
+
+
+li
+{
+	display:inline-block;
+	padding:10px;
+	margin:10px;
+	border-radius: 5px;
+}
+a
+{
+	padding:2px;
+	font-size:20px;
+	text-decoration:none;
+	margin:5px;
+	color:white;
+}
+a:hover
+{   
+    background-color:rgba(255,0,0,0.5);
+	font-family:Brush Script MT;
+}
+.a2,.a3,.a4
+{
+	float:right;
+}
+p
+{
+	font-size:50px;
+	text-align:center;
+	font-family:Brush Script MT;
+}
+input[ value="Order now" ]
+{
+	font-size:20px;
+    width: 120px;
+	height: 40px;
+	padding:10px;
+	margin:15px; 
+	border: 2px solid black;
+	color:#ffea0;
+	background-color:#8C0C1F;
+	line-height: 25px;
+	margin-left:45%;
+	letter-spacing:-1px;
+	
+}
+.div3
+{
+    margin-left:41%;
+}
+/************************ sytle of part2 ************************/
+.div4
+{
+	color:#f00;
+	background:#58c1a3;
+	text-align:center;
+	padding:10px;
+	font-size:40px;
+	margin:10px 0px;
+	
+}
+
+/*********************** style of part3 ************************/
+.div5
+{
+    border:2px solid red;	
+    display:inline-block;
+    width:400px;
+    padding:20px;
+    margin:20px;
+}
+.img
+{
+    height:500px;
+    width:350px;
+    padding:20px;
+}
+.div5:hover
+{
+	
+    border:1px solid red;
+    padding:20px;	
+	
+}
+.div5:hover p 
+{
+    text-transform:capitalize;
+    visibility:hidden;
+}
+/*************************** style of part4 *************************/
+.div6
+{
+	color:#ffea0;
+	background:#bd5c89;
+	text-align:center;
+	padding:10px;
+	font-size:40px;
+	margin:10px 0px;
+	
+}
+/**************************** style of part6 ************************/
+ .div7
+{
+
+    background:#3d0c02;
+	color:#FFFFFF;
+	padding:10px;
+	width:1500;
+}
+.table1
+{
+    width:1500px;
+    padding:0px;
+    color:#424242;
+}
+.table2
+{
+    width:1500px;
+	padding:0px;
+}	
+.table3
+{
+    width:1500px;
+	padding:0px;
+}	
+img
+{
+    width:300px;
+    height:150px;  
+}  
+td
+{
+	
+	
+	color:#c46210;
+}
+/********************************* style of part8 **************************/
+.div8
+{
+    text-align:center;
+    color:#8a2be2;
+	padding:10px;
+	background-image:url(../images/IMG-20200803-WA0185.jpg);
+}
+/******************************** style of part9 **************************/
+.div9
+{
+	text-align:center;
+	background:#fb9902;
+    color:#7fffd4;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
