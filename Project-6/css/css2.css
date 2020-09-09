@@ -113,7 +113,7 @@ input[ value="Order now" ]
 .div6
 {
 	color:#ffea0;
-	background:#bd5c89;
+	background:#daff70;
 	text-align:center;
 	padding:10px;
 	font-size:40px;
@@ -124,7 +124,7 @@ input[ value="Order now" ]
  .div7
 {
 
-    background:#3d0c02;
+    background:#ddd;
 	color:#FFFFFF;
 	padding:10px;
 	width:1500;
@@ -148,13 +148,29 @@ input[ value="Order now" ]
 img
 {
     width:300px;
-    height:150px;  
+    height:150px; 
+    border-radius: 50% 50%; 	
 }  
 td
 {
 	
 	
 	color:#c46210;
+}
+.order
+{
+	font-size:20px;
+    width: 120px;
+	height: 40px;
+	padding:10px;
+	margin-top:20px;
+	border: 2px dotted white;
+	color:white;
+	background-color:#f798a0;
+	line-height: 25px;
+	letter-spacing:-1px;
+	display:block;
+	border-radius: 50% 50%;
 }
 /********************************* style of part8 **************************/
 .div8
