@@ -221,9 +221,9 @@ p
 	 padding:20px 10px;
 	 background:black;
 }
-.img1:hover
+.div5:hover
 {
-	 -webkit-transform:translate(500px,90px) scale3d(2, 2, 4) ;
+	 -webkit-transform:translate(200px,30px) scale3d(1, 1, 2) ;
 	 
 	
 }
