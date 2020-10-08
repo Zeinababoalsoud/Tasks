@@ -1,0 +1,262 @@
+/********************* Style of Part1 (Nav) ***************************/
+* 
+{
+     transition:.5s ease-in-out all;
+}
+body
+{
+	 margin:0px;
+	 padding:0px;
+	 background-image:url(../images/464017487_436092.jpg);
+     background-size:100%;
+	 
+}
+nav
+{
+	 width:100%;
+	 background:linear-gradient( to top,white,pink);
+	 height:8%;
+	 padding: 10px;
+	 z-index:4;
+	 position:fixed;
+	 
+}
+
+a 
+{
+	 text-decoration:none;
+	 padding:10px;
+	 margin:auto;
+	 color:black;
+	 
+}
+a:hover
+{
+	 color:white;
+}
+li
+{
+	
+     list-style:none;
+	 font-size:25px;
+	 display:inline-block;
+	 background:#ccc;
+	 padding:5px;
+	 
+}
+.search
+{
+	 float:right;
+	 
+}
+img
+{
+	 display:inline-block;
+	 width:20px;
+	 background:#ccc;
+	 
+	
+}
+span
+{
+	 color:black;
+	 margin:5px;
+	 font-size:25px;
+}
+input
+{
+	 width:45%;
+	 border:2px solid #ffea00;
+	 margin:3px;
+	
+}
+
+/************************* Style of Part2 *******************/
+
+
+aside
+{
+	 
+	 width:30%;
+	 margin-top:100px;
+	 position:fixed;
+	 z-index:2;
+	 height:80%;
+}
+.a,.b,.c
+{
+     
+	 margin-left:-60px;
+	 -webkit-border-radius:5px;
+	 display:block;
+	 color:#ffea00;
+	 font-size:30px;
+	 width:15%;
+	 text-align:center;
+	 padding:10px;
+	 margin:10px 0px 10px -60px;
+	 
+	
+}
+.a
+{
+	 background:#a1367b;
+}
+.b
+{
+	 background:#ca5090;
+}
+.c
+{
+	 background:#d5a3bd;
+}
+.a:hover,.b:hover,.c:hover
+{
+	
+	 margin-left:0px;
+	
+}
+/************************* Style of Part3 ********************/
+.div2
+{
+	
+	 top:250px;
+	 margin:auto;
+	 width:50%;
+	 height:70%;
+	 background:#ccc;
+	 position:relative;
+	 z-index:3;
+     border:3px solid #ffea00;
+	 -webkit-box-shadow:10px 10px 5px 5px #a1367b,
+	                    -10px -10px 3px 3px pink;           
+	 padding:80px;
+	 -webkit-border-radius:10px;
+	 background-image:url(../images/464013837_438950.jpg);	
+}
+p
+{
+	
+     font-size:35px; 	
+	 font-family:Kunstler Script;
+	 font-weight:bold;
+	 text-shadow:10px 10px 0px #ffea00;
+	 background:#ddd;
+	 padding:20px;
+	 -webkit-border-radius:30px 50px;
+	 -webkit-box-shadow: -10px -10px 10px 10px #ffea00,
+	                      10px 10px   5px 5px #f0f;
+	 text-align:center;
+	
+	
+}
+
+.div3
+{
+	 
+	 -webkit-border-top-left-radius:80%;
+	 -webkit-border-bottom-right-radius:80%;
+	  border:1px solid #fof;
+	  width:90px;
+	  
+	  background:linear-gradient( to top,yellow,pink);
+	  color:#666;
+	  height:30%;
+	  padding:20px;
+	  margin:20px auto;
+	
+}
+
+/***************************** Style Of Part4 **********************/
+.div4
+{
+	 background-image:url(../images/1386514.jpg);
+	 top:500px;
+	 position:relative;
+	 padding:10px;
+	 z-index:1;
+	 text-align:center;
+		
+	
+}
+
+.img
+{
+	 transition:1s ease-in-out all;
+	 width:200px;
+	 height:150px;
+	 margin:100px auto;
+	 border-radius:50%;
+	 -webkit-transform:scale(0.5,0.5);
+}
+.img:hover
+{
+	 -webkit-transform:scale(1,1) rotate(360deg);
+	 
+	 
+}
+
+/************************** Style of Part5 **********************************/
+.div5
+{
+	
+	
+	 background:black;
+	 top:600px;
+	 position:relative;
+	 padding:10px;
+	 z-index:0;
+	 height:400px;
+	 padding:20px 10px;
+	 margin:40px 10px;
+	 overflow:hidden;
+	
+	
+}
+.img1
+{
+	 transition:1s ease-in-out all;
+	 height:370px;
+	 width:300px;
+	 padding:20px 10px;
+	 background:black;
+}
+.img1:hover
+{
+	 -webkit-transform:translate(500px,90px) scale3d(2, 2, 4) ;
+	 
+	
+}
+
+/**************************** Style of Part6 ******************************/
+.div6
+{
+	
+	 background:linear-gradient( to right,#f0f,black);
+	 color:white;
+	 position:relative;
+	 padding:10px;
+	 top:660px;
+	 text-align:center;
+	
+}
+.div6:hover
+{
+	 
+	 background:linear-gradient( to top,white,pink);
+	 color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
