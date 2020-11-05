@@ -1,0 +1,181 @@
+/******************************** Style Of Part1 ************************************/
+body
+{
+	 padding:0;
+	 margin:0;
+}
+.div1
+{
+	 background-color:#e86736;
+	 border:1px solid #282727;
+	 position:fixed;
+	 height:8%;
+	 width:99%;
+	 padding:10px;
+	 z-index:2;
+}
+ul
+{
+	 list-style-type:none;
+	
+}
+a
+{
+	 text-decoration:none;
+	 color:#f3eeea;
+	 font-size:20px;
+}
+li 
+{
+	 display:inline;
+	 padding:10px;
+	 float:right;
+	 
+}
+.home
+{
+	 background-color:#f58903;
+	 float:left;
+	 background-attachment:fixed;
+}
+
+.a:hover
+{
+	 background-color:#fb6228;
+	 color:white;
+}
+/******************************** Style Of Part2 ************************************/
+.div2
+{
+	 border-width:0px 5px ;
+	 border-color:#24f424;
+	 border-style:solid ;
+	 padding:50px;
+	 top:88px;
+	 position:relative;
+	 height:550px;
+	 z-index:1;
+
+}
+.div3
+{
+     border:3px solid #f51a1a;
+	 padding:30px;
+	 top:92px;
+	 height:500px;
+	 margin:20px;
+}
+.Frist,.second,.Third
+{
+	 border:2px solid #8df78d;
+	 padding:30px;
+	 top:110px;
+	 height:400px;
+	 margin:20px;
+	 width:25%;
+     display:inline-block;
+	 text-align:center;
+}
+.Frist img,.second img,.Third img
+{
+	 width:90%;
+	 height:300px;
+}
+.Frist h3,.second h3,.Third h3
+{
+	 color:#750404;
+	 text-align:center;
+	 font-family:"Imprint MT Shadow";
+}
+.Frist p,.second p,.Third p
+{
+	 color:#08ef08;
+     display:none;
+     text-transform:capitalize;	
+     font-family:"Viner Hand ITC";	 
+}
+.div3:hover p 
+{
+     display:inline;
+}
+.div2:hover .div3
+{
+	 border:5px dotted #f51a1a;
+}
+/******************************** Style Of Part3 ************************************/
+.div4
+{
+	 top:150px;
+	 background-image:url(../images/22.jpeg);
+	 background-attachment:fixed;
+	 background-repeat:no-repeat;
+	 border:5px solid #24f424;
+	 padding:100px;
+	 position:relative;
+	 background-size:100%;
+	 height:250px;
+	 text-align:center;
+}
+.div5
+{
+	 width:80%;
+	 padding:20px;
+	 background-color:#8bfd8b;
+	 margin:120px auto;
+	 height:25%;
+	 border:3px solid #24f424;
+}
+.div5 p 
+{
+	 text-transform:uppercase;
+	 color:#ff5537;
+}
+/******************************** Style Of Part4 ************************************/
+.div6
+{
+	 top:250px;
+	 background-image:url(../images/23.jpg);
+	 background-attachment:fixed;
+	 background-repeat:no-repeat;
+	 border:5px solid #24f424;
+	 padding:100px;
+	 position:relative;
+	 background-size:100%;
+	 height:250px;
+	 text-align:center;
+	 margin: 10px 100px;
+}
+.p1
+{
+	 direction:rtl;
+	 margin:30px ;
+	 padding:10px;
+	 background-color:rgba(146, 243, 146, 0.5);
+	 font-size:20px;
+	 color:white;
+	 font-family:;
+	
+	
+}
+.p2
+{
+	 direction:ltr;
+	 margin:30px ;
+	 padding:10px;
+	 background-color:rgba(146, 243, 146, 0.4);
+	 font-size:20px;
+	 color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

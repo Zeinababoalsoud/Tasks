@@ -1,0 +1,501 @@
+/********************* Style of Part1 (Nav) ***************************/
+* 
+{
+     transition:.5s ease-in-out all;
+	  box-sizing:border-box;
+}
+body
+{
+	 margin:0px;
+	 padding:0px;
+	 background-image:url(../images/464137766_416546.jpg);
+	 perspective:500px;
+	 
+}
+nav
+{
+	 width:100%;
+	 background:linear-gradient( to top,#2c2528,#e90c8d);
+	 height:5%;
+	 padding: 10px;
+	 z-index:4;
+	 border:2px solid #ccc;
+     top:0;
+	 position:fixed;
+	
+	 
+}
+
+a 
+{
+	 text-decoration:none;
+	 padding:10px;
+	 margin:auto;
+	 color:white;
+	 
+}
+a:hover
+{
+	 color:black;
+}
+li
+{
+	
+     list-style:none;
+	 font-size:25px;
+	 display:inline-block;
+	 margin-right:10px;
+	 color:white;
+	 font-size:15px;
+}
+.home 
+{
+     background:#af085c;
+	 border:2px solid black;
+	 padding-top:5px;
+	 font-size:25px;
+	 
+}
+.search
+{
+	 float:right;
+	 border:1px solid #ccc;
+	 padding:2px;
+	 
+}
+nav img
+{
+	 display:inline-block;
+	 width:20px;
+	 background:#ccc;
+	 height:18px;
+	 border-radius:50% 50%;
+	 border:1px solid pink;
+	 
+	
+}
+
+input
+{
+	 width:55%;
+	 border:2px solid #7c6c74;
+	 margin:3px;
+	 padding:5px;
+	 
+	
+}
+
+/************************* Style of Part2 *******************/
+
+aside
+{
+	 
+	 width:30%;
+	 margin-top:110px;
+	 position:fixed;
+	 z-index:3;
+	 height:80%;
+}
+.a,.b,.c
+{
+     
+	
+	 margin-left:-60px;
+	 -webkit-border-radius:10px;
+	 display:block;
+	 color:#171717;
+	 font-size:30px;
+	 width:18%;
+	 text-align:center;
+	 padding:5px;
+	 margin:5px 0px 5px -60px;
+	 border:1px solid black;
+}
+.a
+{
+	 background:#f559c1;
+	
+}
+.b
+{
+	 background:#f994c9;
+}
+.c
+{
+	 background:#fbcce4;
+}
+.a:hover,.b:hover,.c:hover
+{
+	
+	 margin-left:0px;
+	
+}
+
+/******************************** Patr#3 ***********************************/
+.sec1 
+{
+	 top:70px;
+	 background-size:100%;
+	 height:450px;
+	 position:relative;
+	 z-index:2;	
+	 background-image:url(../images/333.jpg);
+	 padding:50px;
+	 border:5px solid #eee;
+	 width:100%;
+	 
+	 
+}
+.div1
+{
+	
+	 width:28%;
+	 margin-left:70px;
+	 border:5px solid pink;
+	 height:25%;
+	 background:#eee;
+	 color:pink;
+	 box-shadow:10px 10px 10px #f1057d,
+	          -10px -10px 10px #920778;
+	 resize:both;
+	 overflow:hidden;
+	 text-overflow:ellipsis;
+	 margin-bottom:50px;
+	 padding:10px;
+	 line-height:50px;
+	 color:black;
+	 font-family:"Kunstler Script";
+	 font-size:30px;
+	 font-weight:bold;
+	 text-shadow:2px 2px 3px pink;
+	          
+}
+
+/************** Box-sizing ********************/
+.div2 
+{     
+
+	 overflow:hidden; 
+	 text-overflow:ellipsis;
+	 background:rgba(200,200,200,.5);
+	 box-shadow:10px 10px 10px #f1057d,
+	            -10px -10px 10px #920778;
+	 text-shadow:5px 5px 10px rgba(113,10,93,.5),
+	             -5px -5px 10px rgba(0,0,255,.5);
+	 resize:horizontal;
+	 width:400px ;
+     top:100px;
+	 margin-left:70px;
+     padding:30px;
+	 white-space:nowrap;
+	 z-index:1;
+}
+.div3 
+{    
+     background-color:#f606d9;
+	 display:flex;
+	 flex-wrap:nowrap;
+	
+}
+.div3 > div 
+{
+	 text-align:center;
+	 line-height:75px;
+	 width:100px;
+	 margin:10px;
+	 background-color:#f7d3f6;
+	 font-size:30px;
+}
+/******************************** Patr#4 ***********************************/
+.container
+{
+     top:130px;
+     padding:50px;
+     border:5px solid #ccc;	 
+	 background-image:url(../images/555.jpeg);
+	 background-attachment:fixed;
+	 background-repeat:no-repeat;
+	 background-size:100% ;
+	 position:relative;
+	 width:100%;
+	 padding:50px;
+	
+}
+.container >div 
+{
+	
+	 display:inline-block;
+	 width:30%;
+	 height:400px;
+	 text-align:center;
+	 position:relative;
+	 transform-style:preserve-3d;
+	 border:2px solid #06f419; 
+	 margin-right:40px;
+}
+.fath1,.fath3
+{ 
+     transition:all 1s ease-in-out;
+	 transform-style:preserve-3d;
+	 position:relative;
+	 perspective:600px;
+	 margin-right:10px;
+	 border-radius:50% 50% ;
+}
+.fath1:hover,.fath3:hover
+{
+	 transform:rotateY(180deg);
+}
+.front,.front3
+{
+	 width:100%;
+	 z-index:2;
+	 height:100%;
+	 top:0;
+	 left:0;
+	 position:absolute;  
+	 backface-visibility:hidden;
+	 
+}
+.front > img
+{
+	 width:100%;
+	 height:400px;
+	 top:o;
+	 left:0;
+	 border-radius:50% 50% ;
+}
+.back,.back3
+{
+	 position:absolute;
+	 width:100%;
+	 z-index:1;
+	 height:100%;
+	 top:0;
+	 left:0;
+	 position:absolute;
+     backface-visibility:hidden;
+	 transform:rotateY(180deg);
+	 background-color:#bdf3bb;
+	 border-radius:50% 50% ;
+	 
+	 
+}
+.back p 
+{
+	 color:black;
+	 margin:180px auto;
+	 font-family:"Kunstler Script";
+}
+/***************** #2 **********************/	
+.fath2
+{ 
+     transition:all 1s ease-in-out;
+	 transform-style:preserve-3d;
+	 position:relative;
+	 perspective:600px;
+	 margin-right:10px;
+	 border-radius:30px;
+	 text-align:center;
+	 box-shadow:5px 5px #e2f704,
+	            -5px -5px #e0f8df ;
+}
+.fath2:hover
+{
+	 transform:rotateY(180deg);
+}
+.front2
+{
+	 width:100%;
+	 z-index:2;
+	 height:100%;
+	 top:0;
+	 left:0;
+	 position:absolute;  
+	 backface-visibility:hidden;
+/*background-color:#e0f8df;*/
+	 
+}
+header
+{
+	 
+	 height:20%;
+	 background-color:#98f763;
+	 border-radius:30px;
+	 margin-bottom:80px;
+	 border:2px solid #eee;
+	 
+}
+header img 
+{
+	 width:150px;
+	 height:150px;
+	 border-radius:50%;
+	 margin-top:10px;
+	 
+}
+h4 
+{
+	 color:#817a26;
+	 font-size:30px;
+	 font-weight:bold;
+	 font-family:"Kunstler Script";
+	 text-shadow:5px 5px black;
+}
+.front2 p 
+{
+	
+	 color:#06f419;
+	 font-family:"Vladimir Script";
+	 font-size:20px;
+	 font-weight:bold;
+	 
+}
+.back2
+{
+	 width:100%;
+	 z-index:1;
+	 height:100%;
+	 top:0;
+	 left:0;
+	 position:absolute;  
+	 backface-visibility:hidden;
+	 transform:rotateY(180deg);
+	 background-color:#caf789;
+	 direction:rtl;
+	 border-radius:30px;
+	 
+	 
+}
+.back2 p 
+{
+	 color:#817a26;
+	 font-family:Calibri;
+	 font-size:20px;
+	 font-style:italic;
+	 margin:140px auto;
+	 
+}
+/***************** #3 **********************/	 
+
+.front3 > img
+{
+	 width:100%;
+	 height:400px;
+	 top:o;
+	 left:0;
+	 border-radius:50% 50% ;
+}
+
+
+.back3 p 
+{
+	 color:white;
+	 margin:150px  auto;
+	 font-family:"Kunstler Script";
+	 font-size:24px; 
+}
+/******************************** Patr#5 ***********************************/
+.sec2
+{
+	 top:150px;
+	 background-size:100%;
+	 height:450px;
+	 position:relative;
+	 background-image:url(../images/333.jpg);
+	 padding:50px;
+	 border:5px solid #eee;
+	 width:100%;
+	 transform-style:preserve-3d;
+	 transition:all 2s ease-in-out;
+	 overflow:hidden;
+	 margin-bottom:100px;
+}
+.img1
+{
+     height:400px;
+	 width:20%;
+
+	
+	 
+}
+.img2,.img4
+{
+	
+	 float:right;
+	 height:400px;
+	 width:20%;
+}
+.img4,.img3
+{
+	
+	 height:150px;
+	 width:15%;
+	 opacity:0;
+}
+.sec2:hover .img3,.sec2:hover .img4
+{
+	 opacity:1;
+	 
+     /*transform:rotatex(360deg) translate(100px,100px) ;*/
+	
+}
+/******************************** Patr#6 ***********************************/
+.sec3
+{
+	 
+	 
+	 overflow:hidden;
+	 background-image:url(../images/333.jpg);
+	 border:5px solid #eee;
+     height:600px;	 
+	 padding:100px 30px 30px ;
+	 text-align:center;
+	 margin-bottom:50px;
+	
+	 
+}
+.sec3 div 
+{
+	
+	 -webkit-column-count:4;
+	 column-count:4;
+	 border:3px solid #cb0dee;
+     padding:50px;
+	 -webkit-column-gap:50px;
+	 column-gap:50px;
+	 -webkit-column-rule:3px solid #f0f;
+	 column-rule:3px solid #f0f;
+	 -webkit-column-width:300px;
+	 column-width:100px;
+	 resize:both; 
+	 text-align:center;
+	 width:1000px;
+	 overflow:hidden;
+	 background:#efb0f2;
+	 color:#3e0538;
+	 font-family:"Kunstler Script";
+	 font-weight:bold;
+	
+	 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

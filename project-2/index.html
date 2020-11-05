@@ -1,217 +1,389 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>My Second Task</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
-	<style>
-	   blockquote
-	   {
-	   background:#ccc;
-	   padding:10px;
-	   border:1px solid#ccc;
-	   width:1350px;
-	   height:100px;
-	   }
-	   body 
-	   {
-	   background:#fff;
-	   }
-	   thead td
-       {
-	   background:#ffea00;
-	   Font-weight:bold;
-	   color:#00f;
-	   padding:10px;
-	   border:1px solid#fff;
-       }
-	   tfoot td 
-	   {
-	   background:#005eff;
-	   Font-weight:bold;
-	   color:#ccc;
-       padding:10px; 
-	   border:1px solid#fff;
-	   }
-       tbody td
-       { 
-	   background:#ff00cd;
-       Font-weight:bold;
-       color:#673dff;
-       padding:10px;
-	   border:1px solid#fff;
-       }
-	   label 
-	   {
-	   display:block;
-	   }
-	   iframe
-	   {
-	   background:#ff00cd;
-	   width:1000px;
-	   height:800px;
-	   padding:10px;
-	   border:1px solid#ffea00;
-	   }
-	   .C{color:red;font-size:100px;text-align:center}
-	   .O{color:blue;font-size:30px;text-align:center}
-	   .M{color:green;font-size:90px;text-align:center}
-	   .P{color:#9c27b0;font-size:40px;text-align:center}
-	   .i{color:#eaaccl;font-size:100px;text-align:center}
-	   .L{color:#005eff;font-size:45px;text-align:center}
-	   .e{color:ffc107;font-size:90px;text-align:center}
-	   .r{color:009688;font-size:50px;text-align:center}
-	   .div
-		{
-        text-align:center;
-		background:#fb9902;
-		color:#FFFFFF;
-		padding:10px;
-		}		
-	</style>
-</head>
-
-<body>
-<!--تنسيق النص والاقتباس -->
-   <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
-     <p align="center" style="font-size:30px"><b>a Special quotes make your life</b></p>
-   
-     <blockquote>There are<mark>only two ways</mark>to live your life<ins>One is as Though nothing is a miracle</ins>.<del>The other is as Though every 
-     Thing is a miracle</del>.<p><q>Albert Einshtin </q></p></blockquote><br>
-   
-     <blockquote>The important Thing is not to stop questioning .Curiosity has its own reason for existence . One Cannot help but be in awe when he
-     contempates the  mysteries of eternity ,of life ,of the marvelous strcture of reality .It is enough if one tries merely to compenhend a little of this mystery each day.
-     <mark><q>Old Man s advice to Youth:Never Lose a Holy Curiosity </q>Life magazine(2<sup>nd</sup>of May1955) P<sub>-64</sub></mark><br><q>Albert Einshtin</q></blockquote>
-   </div ><br>
-   
-   
-<!--الجداول وبعض التنسيقات-->
-<div style="background:#ddd;padding:10px;border:1px solid#ffea00">
-      <table border="1" align="center" width="1000px">  
-       <caption style=" color:#ff00cd""font:bold">This is a Table</caption>
-        <thead>  
-		  <tr> 
-            <td>old team</td>
-            <td>Abubakr</td>
-	        <td>fareed</td>
-	        <td>yasser</td>
-	        <td>Rana </td>
-	        <td>Aya</td>
-          </tr>
-		</thead>
-		<tbody>
-          <tr> 
-            <td>Specification</td>
-            <td>front-end Developer</td>
-	        <td>front-end Developer</td>
-	        <td>back-end Developer</td>
-	        <td>back-end Developer</td>
-	        <td>front-end Developer</td>
-          </tr>
-		 </tbody>
-		<tfoot>
-          <tr> 
-            <td>Working with</td>
-            <td>js</td>
-	        <td>php</td>
-	        <td>python</td>
-	        <td>html5,css3,jquery</td>
-	        <td>html5,css3,jquery</td>
-          </tr>
-		</tfoot>
-      </table>
-
-<!--دمج صفوف فى الجداول -->
-     <table  border="1" align="center" width="1000px">
-      <caption style=" color:#964b00""font:bold">Wed-Team Sections</caption>
- 
-      <tr> 
-     
-	    <td colspan="2"style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">Programing</td>
-	    <td colspan="3">wed-Design</td>
-      </tr>
-  
-      <tr> 
-        <td>PHP</td>
-        <td>MySqL</td>
-	    <td style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">html</td>
-	    <td style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">Css</td>
-	    <td style="background:#ffea00""Font-weight:bold""color:#ccc""padding:5px; ">js</td>
-      </tr>
-  
-     </table>
- </div><br>
- 
- <!--forms/Classes-->
- <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
-    <div style=text-align:center;margin:5px">
-	    <span class="C">C</span>
-	    <span class="O">O</span>
-		<span class="M">M</span>
-		<span class="P">P</span>
-		<span class="i">i</span>
-		<span class="L">L</span>
-		<span class="e">e</span>
-		<span class="r">r</span>
-     </div>
-      <form name="Register" action="" method="post">
-        <fieldset style="background:#fff";padding:10px;border:1px solid#ffea00 >
-		    <legend style="Font-weight:bold;color:#ffea00; border:1px solid#964b00">Personal info</legend>
-		    <label>User Name</label>
-		    <input type="text" name="" value="" placeholder="Type Your Name" maxlength="10">
-		    <br>
-		    <label>Password</label>
-		    <input type="Password" placeholder="Type Your Password">
-			<label>Remmeber Me</label>
-		    <input type="checkbox">
-		</fieldset><br><br>
-		<fieldset style="background:#fff";padding:10px;border:1px solid#ffea00>
-		    <label style="Font-weight:bold;color:#ffea00">gender</label><br>
-
-                <input type="radio" name="gender" value="Male">Male<br>
-                <input type="radio" name="gender" value="Female">Female<br>
-             <hr>
-			<label style="Font-weight:bold;color:#ffea00">browzer</label><br>
-
-                <input type="radio" name="brozer1" value="Firfox">Firfox<br>
-                <input type="radio" name="brozer2" value="Chrome">Chrome<br>
-                <input type="radio" name="brozer3" value="safari">safari<br>
-             <hr>
-			    <label style="Font-weight:bold;color:#ffea00">Profile image</label>
-				<input type="file" >
-		     <hr>
-		    <label style="Font-weight:bold;color:#ffea00">Leave a Massage For us</label><br>
-                <textarea rows="20" cols="40"></textarea><br>
-		     <hr>
-<!--Select Box-->
-        <fieldset style="background:#fff";padding:10px;border:1px solid#ffea00 >
-            <legend style="Font-weight:bold;color:#ffea00;border:1px solid#964b00">Deal With info</legend>
-		    <select name="Time" size="1">
-                <option disabled>Now</option>
-		        <option>Tomorrow</option>
-		        <option>After A Week</option>
-            </select>
-			<input type="submit" value="Sent info">
-			<input type="reset">
+    <head>
+	    <title>Zeinab-Task#2</title>
+	    <meta charset="utf-8"/>
+		<style>
 		
-       </fieldset><br>
- 
-  </div ><br>
-</form>
-<!--iframe-->
-        <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
-            <iframe name="ٍSohag univ"src="https://www.sohag-univ.edu.eg/"></iframe>
-        </div><br>
-   <div style="background:#ddd;padding:10px;border:1px solid#ffea00">
-   
-       &lt;div class="Num_div"&gt;<br>
-       &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;Type Here<br>
-       &lt;/div&gt;
-   
-   </div><br>
-   <div class=div>
-      Copyright &copy for Zeinab Abo alsoud
-  
-   </div>
-</body>
+		    body
+			{
+			     padding:0px;
+				 margin:0px;
+			
+			}
+		    .div1
+			{
+			     background:#77e477;
+				 border:5px solid #ccc;
+				 padding:20px;
+				 margin:10px;
+			}
+		    h2
+			{
+			     text-align:center;
+				 color:#15bc15;
+			}
+		    .block1
+			{
+			     background:#b1b17d;
+				 padding:20px;
+				 margin:10px;
+				 border:1px solid #ccc;
+				 
+			}
+			.block2
+			{
+			     
+			     background:#cece65;
+				 padding:20px;
+				 margin:10px;
+				 border:1px solid #ccc;
+			
+			}
+			
+			.div2
+			{
+			     background:#8eea8e;
+				 border:5px solid #ccc;
+				 padding:10px;
+				 margin:10px;
+			     
+			
+			
+			}
+			.cab1
+			{
+			     font-weight:bold;
+				 color:#413c09;
+				 margin:10px;
+			
+			}
+			.tab1,tr,td
+			{
+			     border:5px solid #c3b622;
+				 background:#ccc;
+				 text-align:center;
+				 padding:2px;
+				 width:57%
+			}
+			tr
+			{
+			     border:3px solid #ffea00;
+			
+			}
+			thead td
+			{
+			     border:3px solid #080;
+				 color:#ffea00;
+				 background:black;
+				 padding:5px;
+			}
+			tbody td
+			{
+			     border:3px solid #ffea00;
+				 color:#080;
+				 background:black;
+				 padding:5px;
+			}
+			tfoot td
+			{
+			     border:3px solid black;
+				 color:#0ffea00;
+				 background:#080;
+				 padding:5px;
+			}
+			.tab2
+			{
+			     border:5px solid #49882c;
+				 padding:3px;
+				 background:#ccc;
+				 width:57%
+			
+			}
+			.cab2
+			{
+			     color:#080;
+				 margin:10px;"
+			
+			}
+			.div3
+			{
+			
+			     background:#ecbce1;
+				 border:5px solid #ede6e6;
+				 padding:20px;
+				 margin:10px ;
+			
+			}
+			.div4
+			{
+			      text-align:center;
+				  padding:10px;
+				  margin:10px;
+			}
+			.c
+			{
+			     font-size:100px;
+				 color:#880067;  
+			}
+			.o
+			{
+			     font-size:50px;
+				 color:#fa04e0;
+			     
+			}
+			.m
+			{
+			     font-size:70px;
+				 color:#ba84af;  
+			}
+			.p
+			{
+			     font-size:60px;
+				 color:#4b0744;  
+			}
+			.i
+			{
+			     font-size:65px;
+				 color:#b00ffa;  
+			}
+			.l
+			{
+			     font-size:50px;
+				 color:#e28ce5;  
+			}
+			.e
+			{
+			     font-size:50px;
+				 color:#b682b8;  
+			}
+			.r
+			{
+			     font-size:100px;
+				 color:#3a0235;  
+			}
+			.form
+			{
+			
+			     Background:#fbd3f2;
+				 padding:50px;
+				 margin:10px;
+			}
+			.leg1
+			{
+			     border:2px solid #3a0235;
+				 color:#6c0458;
+				 padding:5px;
+				 margin:5px;
+				 font-weight:bold;
+				 background:#ccc;
+			}
+			fieldset
+			{
+			     border:2px solid #ccc;
+				 margin:20px;
+				 padding:10px;
+				 background:#f9e4f4;
+			
+			}
+			label
+			{
+			     display:block;
+				 padding:5px;
+				 margin:5px;
+				 font-weight:bold;
+				 color:#b00ffa;
+			}
+			input
+			{
+			     padding:5px;
+				 border:2px solid #ccc;
+			}
+			.div5
+			{
+			
+			     background:#ecbce1;
+				 border:5px solid #ede6e6;
+				 padding:20px;
+				 margin:10px ;
+				 
+			
+			}
+			iframe
+			{
+			     border:5px solid #fbd3f2;
+			     width:80% ;
+				 height:70%;
+				 padding:10px;
+			}
+			.div8
+			{
+			     padding:10px;
+				 background:#be92af;
+				 border:5px solid #d8ccd5;
+				 color:#efdfeb;
+			     text-align:center;
+				 margin:10px;
+			}
+		</style>
+	
+	</head>
+    <body>
+	    <!--***************************************** Part1 ************************************-->
+			<div class="div1">
+				<h2>a Special quotes make your life</h2>
+				<blockquote class="block1">
+				
+					 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are<mark>only two ways</mark>to live your life<ins>One is as Though nothing is a miracle</ins>
+					 .<del>The other is as Though every Thing is a miracle</del>.<br><br>
+				<q>Albert Einshtin </q>
+				
+				</blockquote>
+				
+				<blockquote class="block2">
+                     he important Thing is not to stop questioning .Curiosity has its own reason for existence .One Cannot help but be in awe when he contempates 
+					 the  mysteries of eternity ,of life ,of the marvelous strct reality.It is enough if one tries merely to compenhend a little of this mystery each day.
+			         <mark><q>Old Man s advice to Youth:Never Lose a Holy Curiosity </q>
+					 Life magazine(2<sup>nd</sup>of May1955) P<sub>-64</sub></mark><br><br>
+					 <q>Albert Einshtin</q>
+					
+				</blockquote>
+			</div>	
+			<!--************************************ Part2(frist Table) *******************************-->
+			<div class="div2">
+			     <table class="tab1" align="center">
+				     <caption class="cab1">This is a Table</caption>
+				     <thead>
+					     <tr>
+						     <td>Old Team</td>
+						     <td>Abu Bakr</td>
+							 <td>Farred</td>
+							 <td>Yasser</td>
+							 <td>Rana</td>
+							 <td>Aya</td>
+						 </tr>
+					 </thead>
+				     <tbody>
+					     <tr>
+						     <td>Specification</td>
+						     <td>front-end Developer</td>
+							 <td>front-end Developer</td>
+							 <td>front-end Developer</td>
+							 <td>Back-end Developer</td>
+							 <td>Back-end Developer</td>
+						 </tr>
+					 </tbody>
+				     <tfoot>
+                         <tr> 
+							 <td>Working with</td>
+							 <td>js</td>
+							 <td>php</td>
+							 <td>python</td>
+							 <td>html5,css3,jquery</td>
+							 <td>html5,css3,jquery</td>
+						 </tr>
+					 </tfoot>
+				
+				 </table> 
+			<!--************************************ Part3(second Table) *******************************-->
+			     <table class="tab2" align="center">
+			         <caption class="cab2">Wed-Team Sections</caption>
+				     <tr>
+				         <td colspan="2">Programming</td>
+				         <td colspan="3">Web-design</td>
+				     </tr>
+			         <tr>
+				         <td>PHP</td>
+				         <td>MySQL</td>
+				         <td>html</td>
+					     <td>Css</td>
+				         <td>js</td>
+				     </tr>
+				 
+			     </table>
+			 </div>
+			<!--************************************ Part4****************************************-->
+			 <div class="div3">
+			     <div class="div4">
+					 <span class="c">c</span>
+					 <span class="o">o</span>
+					 <span class="m">m</span>
+					 <span class="p">p</span>
+					 <span class="i">i</span>
+					 <span class="l">l</span>
+					 <span class="e">e</span>
+					 <span class="r">r</span>
+			     </div>
+			     
+				 
+		     <form class="form">
+			     <fieldset class="field">
+				     <legend class="leg1">Personal Info</legend>
+				         <label>Username</label>
+						     <input type="text" placeholder="Type Your Name" maxlength="10"/>
+				 
+				         <label>Password</label>
+						     <input type="Password" Placeholder="Type Your Password" maxlength="10"/>
+							 
+						 <label>Remember Me</label>	 
+							 <input type="Checkbox"/>
+				 </fieldset>
+			     
+				 <fieldset>
+				     <legend class="leg1">Other Info</legend>
+				         <label>Gender</label>
+						     <input type="radio" name="gener"/>male<br>
+				             <input type="radio" name="gener"/>female<br>
+							 <hr>
+				         <label>browzer</label>
+						     <input type="radio" name="browzer"/>Chrome<br>
+				             <input type="radio" name="browzer2"/>Firefox<br>
+							 <input type="radio" name="browzer3"/>Safari<br>
+							 <hr>
+						 <label>profile image</label>
+						     <input type="file" /> 
+							 <hr>
+						 <label>Leave Massage For Us</label>	 
+							 <textarea rows="20" cols="60">
+							 
+							 </textarea>
+				 </fieldset>
+				 
+				 
+			     <fieldset>
+				     <legend class="leg1">Deal With Info</legend>
+				         
+						 <select name="Time">
+						     <option>Tomorrow</option>
+						     <option disabled >NOw</option>
+							 <option> After A Week</option>
+						 </select>
+						 <input type="submit" value="Sent Info"/>
+						 <input type="reset" value="Delete Info"/>
+				             
+				 </fieldset>
+			 </form>
+			 
+			 </div> 	 
+			<!--************************************ Part5 (iframe)*****************************-->
+			 <div class="div5">
+			     <iframe name="ٍSohag univ"src="https://www.sohag-univ.edu.eg/"></iframe>
+	         </div>
+			 <!--************************************ Part6 *************************************-->
+			 <div class="div5">
+			     <h2> An Example for A Div Code </h2>
+				 
+				 &lt;div Class="div6"&gt; TYPE HERE &lt;/div&gt;
+			        
+			 </div>
+			 <!--************************************ Part7 *************************************-->
+			 <div class="div8">
+			     Copyright &copy; Zeinab Aboalsoud Abas
+			 
+			 
+			 </div> 
+			  
+			  
+	</body>
+
 </html>

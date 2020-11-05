@@ -1,0 +1,273 @@
+/***************************** Style of Part1 ****************************/
+body
+{
+	 padding:0;
+	 margin:0;
+}
+*
+{ 
+     transition:.75s ease-in-out all;
+}
+.div1
+{
+	 padding:1px;
+	 background-color:#d00693;
+	 border:2px solid #7f076b;
+	 position:fixed;
+	 z-index:5;
+	 width:100%;
+	 margin:auto;
+	 top:0;
+}
+.div1 ul
+{
+	 list-style:none;
+}
+li 
+{
+	 display:inline-block;
+	 padding:3px;
+	 margin:3px;
+	 font-size:25px;
+	 
+}
+a
+{ 
+	 text-decoration:none;
+	 color:white;
+	 
+}
+.facebook, .twitter, .instagram, .messenger
+{
+     float: right;
+     color:aliceblue;
+}
+
+.Home 
+{
+     background: #230215;
+	 font-family:"Kunstler Script";
+	 font-weight:bold;
+	 font-size:30px;
+	 border:2px solid #ccc;
+	 border-radius:10px;
+}
+/***************************** Style of Part2 ****************************/
+.div2
+{ 
+	 position:fixed;
+	 z-index:4;
+	 top:100px;
+}
+.about, .blog, .project,.contact 
+{ 
+	 text-decoration:none;
+	 display:block;
+	 margin-left:-80px;
+	 margin-bottom:5px;
+	 padding:10px;
+	 color:white;
+	 border-radius:15px;
+	 border:1px solid #dedbdb;
+	 height:20px;
+	 font-size:20px;
+	 width:75px;
+	 
+}
+.about:hover, .blog:hover, .project:hover, .contact:hover 
+{
+        margin-left: 0px;
+}
+
+.about 
+{
+        background:#6f1b5c;
+}
+
+.blog
+{
+    background:#cc1bb3;
+}
+
+.project
+{
+    background:#ef48b8;
+}
+
+.contact
+{
+    background:#f7b4e7;
+}
+/***************************** Style of Part3 ****************************/
+.div3
+{
+     margin:100px 40px;
+     color:#000;
+     z-index:1;
+}
+h1
+{ 
+	 color:#d6b0f1;
+}
+
+dt 
+{
+     background:#5f1e65;
+     color:#f8bc04;
+     height: 30px;
+     padding: 10px 10px 0px;
+     position:sticky;
+     top:90px;
+}
+dd
+{ 
+     color:#e008f5;
+}
+/***************************** Style of Part4 ****************************/
+.div4
+{
+	 top:120px;
+	 border:5px solid #da72c9;
+	 background-image:url(../images/22.jpeg);
+	 background-size:100%;
+	 padding:30px;
+	 min-height:300px;
+	 margin:auto;
+}
+.div4 p 
+{
+	 background-color:rgba(210, 118, 199, 0.5);
+	 padding:20px;
+	 margin:20px auto 70px ;
+	 border:3px solid #da72c9;
+	 max-height:30px;
+	 overflow:hidden;
+	 color:white;
+	 font-family:"Harlow Solid Italic";
+	 font-weight:bold;
+	 font-style:italic;
+	
+}
+.div4 p:hover
+{
+	 max-height:100px;
+}
+.div4:hover:after {
+     content: "this div is hovered";
+     background: rgba(210, 118, 199, 0.5);
+	 padding:50px 1000px 50px 50px;
+	 border:3px solid  #da72c9;
+	 font-family:"Harlow Solid Italic";
+	 font-weight:bold;
+	 font-style:italic;
+	 color:white;
+}
+/***************************** Style of Part5 ****************************/
+.div5
+{
+	 top:150px;
+	 border:5px solid #da72c9;
+	 background-image:url(../images/22.jpeg);
+	 background-size:100%;
+	 padding:30px;
+	 margin:auto;
+	 margin-top:50px;
+	 min-height:200px;
+}
+
+.div6
+{
+
+	 border:3px solid #da72c9;
+	 background-color:rgba(210, 118, 199, 0.5);
+	 padding:20px;
+	 margin:20px auto;
+     color:White;
+	 font-size:20px;
+     font-family:"Harlow Solid Italic";
+	 font-weight:bold;
+	 font-style:italic;
+}
+.div7
+{
+	 border:2px solid #da72c9;
+	 background-color:rgba(248, 5, 219, 0.5);
+	 padding:20px;
+	 margin:20px auto;
+     color:White;
+	 font-size:20px;
+     font-family:"Harlow Solid Italic";
+	 font-weight:bold;
+	 font-style:italic;
+	 border-radius:10px;
+	 
+}
+.div7 ~p 
+{
+	
+	 border:2px solid #da72c9;
+	 background-color:rgba(210, 118, 199, 0.5);
+	 padding:20px;
+	 margin:20px auto;
+     color:White;
+	 font-size:20px;
+     font-family:"Harlow Solid Italic";
+	 font-weight:bold;
+	 font-style:italic;
+	 border-radius:10px;
+}
+.div6 p:hover ~p
+{
+    background:rgba(248, 5, 219, 0.5);
+}
+/***************************** Style of Part6 ****************************/
+.div8
+{
+	 top:250px;
+	 border:5px solid #da72c9;
+	 background-image:url(../images/464137766_416546.jpg);
+	 background-size:100%;
+	 padding:30px;
+	 margin:auto;
+	 margin-top:50px;
+	 min-height:100px;
+}
+.div8 p 
+{
+	 padding:30px;
+	 margin:50px;
+	 background-color:rgba(248, 5, 219, 0.5);
+	 font-size:20px;
+	 font-family:"Harlow Solid Italic";
+	 border:2px solid #f0f;
+	 font-style:italic;
+}
+.div8 p:first-letter 
+{
+     background: #ff29c0;
+     font-size: 40px;
+     border-radius: 50% 50%;
+	 color:white;
+	 font-style:normal;
+}
+.div8 p:first-line 
+{
+	 background-color:#faddf9;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

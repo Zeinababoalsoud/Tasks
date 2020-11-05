@@ -1,71 +1,79 @@
-/******************** style of Part1(Navigation) *********************/
-* 
-{
-     transition: .75s ease-in-out all;
-}
+/***************************** Style of Part1 ****************************/
 body
 {
-	 margin:0px;
-	 padding:0px;
-	
-	
-	
+	 padding:0;
+	 margin:0;
 }
-nav
-{  
-     background-color:#381913;
-     height:75px;
-     padding:10px;
-     position:fixed;
-     width:1500px;
-	 margin-bottom:50px;
-	 z-index:3;
-	
+*
+{ 
+     transition:.75s ease-in-out all;
 }
-li
-{  
-     display:inline-block;
-     list-style:none;
-     padding:5px;
-     margin-bottom:5px;
-     font-size:30px;
-   
+.nav
+{
+	 padding:1px;
+	 background-color:#381913;
+	 border:2px solid #a4760d;
+	 position:fixed;
+	 z-index:5;
+	 width:100%;
+	 margin:auto;
+	 top:0;
 }
-a
-{  
-     text-decoration:none;
-	 padding:5px;
+.nav ul
+{
+	 list-style:none;
+}
+li 
+{
+	 display:inline-block;
+	 padding:3px;
+	 margin:3px;
+	 font-size:25px;
 	 
 }
-.home
-{
-     background:#ffea00;
+a
+{ 
+	 text-decoration:none;
+	 color:white;
+	 
 }
-.insta,.facebook,.massenger,.twitter
+.facebook, .twitter, .instagram, .messenger
 {
-     float:right;
-	 color:#ffea00;
-}
-/***************************** style of part2 *************************/
-aside 
-{
-     position: fixed;
-	 margin-top:100px;
-	 z-index:2;
-}
-.about, .blog, .project,.contact 
-{
-     display: block;
-     color: #000;
-     padding: 10px;
-     width: 100px;
-     font-size: 20px;
-     margin-left: -90px;
-     text-decoration: none;
-     border-radius: 5px;
-     height: 30px;
+     float: right;
+     color:aliceblue;
 }
 
+.Home 
+{
+     background:#ffea00;
+	 font-family:"arial";
+	 font-weight:bold;
+	 font-size:30px;
+	 border:2px solid #ccc;
+	 border-radius:10px;
+}
+/***************************** Style of Part2 ****************************/
+.aside
+{ 
+	 position:fixed;
+	 z-index:4;
+	 top:100px;
+}
+.about, .blog, .project,.contact 
+{ 
+	 text-decoration:none;
+	 display:block;
+	 margin-left:-80px;
+	 margin-bottom:5px;
+	 padding:10px;
+	 color:white;
+	 border-radius:15px;
+	 border:2px solid black;
+	 height:20px;
+	 font-size:20px;
+	 width:75px;
+	 
+}
 .about:hover, .blog:hover, .project:hover, .contact:hover 
 {
      margin-left: 0px;
@@ -73,7 +81,7 @@ aside
 
 .about 
 {
-     background: #b04636;
+     background:#b04636;
 }
 
 .blog
@@ -90,7 +98,7 @@ aside
 {
      background:#dc8f8e;
 }
-/************************************ style of Part3 **************************/
+/***************************** Style of Part3 ****************************/
 .art1
 { 
   
@@ -100,6 +108,7 @@ aside
 	 top:100px;
 	 z-index:1;
 	 padding:10px;
+	 border:5px solid #dc8f8e;
 }
 .sec1
 {
@@ -112,7 +121,9 @@ aside
 	
 }
 .sec1 p
-{    font-style:italic;
+{    
+     font-style:italic;
+     margin:auto;
 
 }
 details
@@ -139,7 +150,7 @@ details p
 	 top:150px;
      padding-top:80px;
 	 margin:0px;
-
+     border:5px solid #dc8f8e;
 
 }
 .sec2
@@ -172,7 +183,7 @@ input
 	 position:relative;
 	 top:200px;
 	 padding-top:5px;
-	 /*background-repeat:no-repeat;*/
+	 border:5px solid #dc8f8e;
 	 
 }
 .sec3
@@ -188,7 +199,7 @@ input
 /*********************************** style of Part6(footer)********************/
 footer
 {
-	 background:#c8ddb1;
+	 background:#ddfb0a;
 	 position:relative; 
 	 top:220px;
 	 padding:10px;

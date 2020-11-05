@@ -40,9 +40,12 @@ li
      list-style:none;
 	 font-size:25px;
 	 display:inline-block;
-	 background:#ccc;
 	 padding:5px;
 	 
+}
+.home 
+{
+	  background:#ccc;
 }
 .search
 {
@@ -57,12 +60,7 @@ img
 	 
 	
 }
-span
-{
-	 color:black;
-	 margin:5px;
-	 font-size:25px;
-}
+
 input
 {
 	 width:45%;
