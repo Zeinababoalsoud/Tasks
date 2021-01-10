@@ -1,0 +1,163 @@
+/************************* Part 1 ******************************/
+*
+{
+	 -webkit-box-sizing:border-box;
+	 -moz-box-sizing:border-box;
+	 transition:all .6s ease-in-out; 
+	 font-family:"Times new roman";
+}
+body 
+{
+    margin:0;
+    padding:0;
+    background:url(../images/turkia.jpeg) fixed no-repeat;
+	background-size:100%;
+}
+nav
+{
+	background:#a02062;
+	border:0px solid black;
+	padding:0;
+	margin:0;
+	position:fixed;
+	width: 100%;
+	top: 0;
+    left:0;
+}
+ul
+{
+	list-style:none;
+	padding:0;
+	margin:0
+}
+li
+{
+	display:inline-block;
+	padding:15px;
+	font-size:20px;
+	background:#a02062;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+li:hover
+{
+	background:#ccc;
+}
+a:hover
+{
+	color:black;
+	text-decoration:line-through;
+}
+.contact,.about
+{
+	float:right;
+	margin:0px 3px;
+}
+/************************* Part 2 ******************************/
+.div1
+{
+	width:50%;
+	background:pink;
+	margin:150px auto;
+	height:50%;
+	padding:20px;
+	border-radius:30px;
+	border:3px solid white;
+	box-shadow:10px 10px 5px #34f289;
+}
+.p1
+{
+	text-align:center;
+	background-color:#ddd;
+	padding:10px;
+	margin:10px;
+	border-radius:40px;
+	font-size:30px;
+	color:white;
+	border:2px dotted white;
+	
+}
+input[ type="text"]
+{
+	padding:10px;
+	margin:10px 80px;
+	border:2px solid white;
+	border-radius:30px;
+	text-align:center;	
+	
+}
+/*.num1
+{
+	left:20px;
+	
+}
+.num2
+{
+	right:20px;
+	
+}*/
+button
+{
+	width:100px;
+	height:30px;
+	padding:1px;
+	border:2px solid green;
+	background:#ffea00;
+	color:black;
+	border-radius:10px;
+	margin:10px 40%;
+	
+	
+}
+#answer
+{
+	margin:10px 35%;
+	border:2px solid black;
+}
+/************************* Part 3 ******************************/
+.div2
+{
+	width:45%;
+	background:#b95387;
+	margin:50px auto;
+	height:50%;
+	padding:20px;
+	border-radius:3px;
+	border:3px solid white;
+	box-shadow:10px 10px 5px #34f289;
+	font-size:30px;
+}
+input[ list="numbers"]
+{
+	padding:10px;
+	margin:10px 150px; 
+
+	border:2px solid white;
+	border-radius:30px;
+	text-align:center;	
+	font-size:30px;
+}
+.show
+{
+	font-size:20px;
+}
+.div3
+{
+	margin:20px;
+	padding:10px;
+}
+/************************* Part 5 ******************************/
+footer
+{
+	text-align:center;
+	background:#ccc;
+	font-size:20px;
+	border:2px solid pink;
+	margin-top:160px;
+	
+	
+	
+}
