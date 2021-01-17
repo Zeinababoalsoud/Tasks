@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+	   <meta charset="utf-8"/>
+	   <title>Zeinab-aboalsoud-second-project-js</title>
+	   <link rel   ="stylesheet" 
+	         href  ="css/style.css"/>
+	   <link rel   ="stylesheet" 
+	         href  ="css/brands.min.css"/>
+	   <link rel   ="stylesheet" 
+	         href  ="css/fontawesome.min.css"/>
+	   <link rel   ="stylesheet"
+	         href  ="css/solid.min.css"/>
+	</head>
+	<body>
+	<!-- ************************** part1(nav) ******************************** -->
+		<nav>
+		     <ul>
+				<li class="home"><a href="">Home</a></li>
+				<li class="contact"><a href="">Contact</a></li>
+				<li class="about"><a href="">About</a></li>
+			 </ul>
+		</nav>	
+	<!-- ************************** part2 ************************************** -->
+	     <aside>
+                 <a href="#"class="a"><i class="fab fa-facebook"></i></a>
+                 <a href="#"class="b"><i class="fab fa-instagram"></i></a>
+                 <a href="#"class="c"><i class="fab fa-twitter"></i></a> 
+         </aside>
+	<!-- ************************** part3 ************************************** -->
+	     <div class="div1">
+			 <p class="p1" > Type The Frist Number </p>
+			 <input type="text" placeholder="Enter Frist-Number" class="in1" id="input1" value=""/>
+			 
+			 <p class="p2" > Type The second Number </p>
+			 <input type="text" placeholder="Enter second-Number" class="in2" id="input2" value=""/>
+			 <button class="but1" onclick="sum()">add</button>
+			 <input type="text" id="answer" name="answer" value=""/>
+
+
+		 </div>
+    <!-- ************************** part4 ************************************** -->
+	     <div class="div2">
+              <button class="but1" onclick="window.div3.innerHTML=prompt('Enter something!');">prompt</button>
+              <div id="div3"></div>
+		 
+		 </div>
+    <!-- ************************** part4 ************************************** -->
+		<div class="div4">
+
+			<button onclick="this.innerText = Date()" class="but3" ondblclick="this.innerText = 'not a double click'">tell me time on click</button>
+			
+			<hr/>
+			<input type="text" class="in3" onkeyup="document.getElementById('count').innerText = this.value.length"/>
+			<span id="count"></span>
+			
+			<hr/>
+			<input type="color" id="col" onchange="this.value" class="in4"/>
+			<span class="span1" onmouseenter="this.style.background = document.getElementById('col').value">Hover to change background color</span> 
+		</div>
+     <!-- ************************** part4 ************************************** -->
+		<div class="div5">
+			<input type="text" class="in5" id="numm"/>
+			<h4 class="span1">choose number of elements to store(maximum 19 user)</h4>
+			<br/>
+
+			<button class="but4" id="makarr()"
+				   onclick="isNaN(document.getElementById('numm').value) ||
+				document.getElementById('numm').value == '' ? 
+				( confirm('type valid number') ? alert('good') :
+				alert('not aprroved ans') )  : 
+				makarr(Number(document.getElementById('numm').value))  " >mack array</button> 
+
+			<div id="div6"></div>
+		</div> 
+
+	<script src="js/java.js"></script>
+	<script src="js/brands.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+	<script src="js/solid.min.js"></script>
+	</body>
+</html>
